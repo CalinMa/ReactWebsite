@@ -1,0 +1,50 @@
+.footer {
+    text-align: center;
+}
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+a.social {
+    display: inline-block;
+    text-indent: -9999px;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    opacity: 1;
+    transition: all .25s;
+}
+a.twitter {
+    background-image: url(../Images/twitter.svg);
+}
+a.linkedin {
+    background-image: url(../Images/linkedin.svg);
+}
+a.github {
+    background-image: url(../Images/github.svg);
+}
+a.instagram {
+    background-image: url(../Images/instagram.png);
+}
+a.youtube {
+    background-image: url(../Images/youtube.png);
+}
+a.mail {
+    background-image: url(../Images/mail.png);
+}
+a.phone {
+    background-image: url(../Images/phone.png);
+}
+a.social:hover {
+    opacity: .5;
+}
+.clearfix {
+    clear: both;
+}
